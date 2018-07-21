@@ -26,7 +26,7 @@ src_compile() {
 src_install() {
 	cd src
 	dolib libivy.so.${PV}
-	dosym libivy.so.${PV} usr/lib64b/libivy.so.3
+	dosym libivy.so.${PV} usr/lib64/libivy.so.3
 	dosym libivy.so.${PV} usr/lib64/libivy.so
 	dolib libgivy.so.${PV}
 	dosym libgivy.so.${PV} usr/lib64/libgivy.so.3
